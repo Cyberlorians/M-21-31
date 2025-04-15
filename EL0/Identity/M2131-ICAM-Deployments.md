@@ -1,4 +1,4 @@
-<details open><summary>M2131-ICAM-WinEvents - MANDATORY</summary>
+<details><summary>M2131-ICAM-WinEvents - MANDATORY</summary>
 <p>
    
 **Disclaimer - SecurityEvents tables is used primarily because UEBA leverages only this table.
@@ -23,7 +23,7 @@
 </details>
 
 
-<details open><summary>M2131-ICAM-EntraConnectAdminActions - If Applicable</summary>
+<details><summary>M2131-ICAM-EntraConnectAdminActions - If Applicable</summary>
 <p>
 
 1. Deploy a [custom template](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#edit-and-deploy-the-template)
