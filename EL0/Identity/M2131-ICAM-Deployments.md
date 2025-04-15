@@ -1,4 +1,4 @@
-<details><summary>M2131-ICAM-WinEvents - MANDATORY</summary>
+<details><summary>M2131-ICAM-SecurityEvents - MANDATORY</summary>
 <p>
    
 **Disclaimer - SecurityEvents tables is used primarily because UEBA leverages only this table.
