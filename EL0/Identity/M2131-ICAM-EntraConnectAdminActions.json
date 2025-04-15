@@ -4,40 +4,25 @@
   "parameters": {
     "dataCollectionRuleName": {
       "type": "string",
+      "defaultValue": "M2131-ICAM-EntraConnectAdminActions",
       "metadata": {
         "description": "Name of the Data Collection Rule"
       }
     },
     "location": {
       "type": "string",
-      "defaultValue": "eastus",
       "metadata": {
         "description": "Location for the Data Collection Rule"
       }
     },
-    "workspaceName": {
-      "type": "string",
-      "defaultValue": "M2131-ICAM-EntraConnectAdminActions",
-      "metadata": {
-        "description": "Name of the Log Analytics Workspace"
-      }
-    },
-    "workspaceResourceGroup": {
+    "workspaceResourceId": {
       "type": "string",
       "metadata": {
-        "description": "Resource group of the Log Analytics Workspace"
-      }
-    },
-    "workspaceSubscriptionId": {
-      "type": "string",
-      "metadata": {
-        "description": "Subscription ID of the Log Analytics Workspace"
+        "description": "Resource ID of the Log Analytics Workspace"
       }
     }
   },
-  "variables": {
-    "workspaceResourceId": "[format('/subscriptions/{0}/resourceGroups/{1}/providers/Microsoft.OperationalInsights/workspaces/{2}', parameters('workspaceSubscriptionId'), parameters('workspaceResourceGroup'), parameters('workspaceName'))]"
-  },
+  "variables": {},
   "resources": [
     {
       "type": "Microsoft.Insights/dataCollectionRules",
@@ -62,7 +47,7 @@
         "destinations": {
           "logAnalytics": [
             {
-              "workspaceResourceId": "[variables('workspaceResourceId')]",
+              "workspaceResourceId": "[parameters('workspaceResourceId')]",
               "name": "la-destination"
             }
           ]
@@ -74,9 +59,7 @@
             ],
             "destinations": [
               "la-destination"
-            ],
-            "transformKql": "source",
-            "outputStream": "Microsoft-Event"
+            ]
           }
         ]
       }
