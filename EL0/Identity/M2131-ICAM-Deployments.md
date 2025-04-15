@@ -58,6 +58,7 @@
    4. Data Collection Rull Name - will be hardcoded already and aligned to naming scructure.
    5. Location - this is the region of the LogA instance. You can find the exact region under the JSON [resourceId](https://github.com/Cyberlorians/M-21-31/blob/main/Images/LogAResourceId.png) of the LogA workspace.
    6. Workspace Region Id - this is the LogA JSON [resourceId](https://github.com/Cyberlorians/M-21-31/blob/main/Images/LogAResourceId.png) of the LogA workspace.
+      
 </p>
 </details>
 
