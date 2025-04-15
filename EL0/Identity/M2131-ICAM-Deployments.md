@@ -62,7 +62,7 @@
 </p>
 </details>
 
-<details><summary>M2131-ICAM-AADNonInteractive - To Save Costs</summary>
+<details><summary>M2131-ICAM-AADNonInteractiveUserSignInLogs - To Save Costs</summary>
 <p>
 
 **Guidance - Federal agencies are transforming AADNonInteractiveLogs to optimize cost efficiency and enhance their cybersecurity posture. This transformation involves removing redundant information related to Conditional Access (CA) policies. Specifically, the ConditionalAccessPolicies column in the AADNonInteractiveUserSignInLogs table duplicates information that is already available in the SignInLogs table. This redundancy causes inefficiency and substantially inflates log ingestion, particularly concerning Conditional Access policies.
