@@ -1,3 +1,5 @@
+<details open><summary>M2131-ICAM-WinEvents</summary>
+<p>
 **Disclaimer - SecurityEvents tables is used primarily because UEBA leverages only this table.
 
 1. Add Windows Security Events via AMA from Content Hub.
@@ -16,5 +18,6 @@
 
 9. Review the DCR was created.
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/ICAMWinevent05.png)
-
+</p>
+</details>
    
