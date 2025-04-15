@@ -62,7 +62,7 @@
 </p>
 </details>
 
-<details><summary>M2131-ICAM-AADNonInteractive - To Save Costs/summary>
+<details><summary>M2131-ICAM-AADNonInteractive - To Save Costs</summary>
 <p>
 
 **Guidance - Federal agencies are transforming AADNonInteractiveLogs to optimize cost efficiency and enhance their cybersecurity posture. This transformation involves removing redundant information related to Conditional Access (CA) policies. Specifically, the ConditionalAccessPolicies column in the AADNonInteractiveUserSignInLogs table duplicates information that is already available in the SignInLogs table. This redundancy causes inefficiency and substantially inflates log ingestion, particularly concerning Conditional Access policies.
@@ -71,7 +71,8 @@ To optimize cost efficiency, the data collection rule applied to the AADNonInter
 
 By focusing on critical event artifacts and eliminating redundant information, federal agencies can maintain robust security monitoring and incident response capabilities while minimizing unnecessary expenditures on data storage and processing.
 
-[Transformation Rule](https://github.com/Cyberlorians/M-21-31/blob/main/EL0/Identity/Transform-AADNonInteractive.md)
+1. Create a [transformation on AADNonInteractiveSignInLogs](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/tutorial-workspace-transformations-portal#add-a-transformation-to-the-table)
+2. Use the [Transformation Rule](https://github.com/Cyberlorians/M-21-31/blob/main/EL0/Identity/Transform-AADNonInteractive.md)
 
 </p>
 </details>
