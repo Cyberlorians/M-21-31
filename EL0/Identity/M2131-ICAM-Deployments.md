@@ -60,3 +60,17 @@
    6. Workspace Region Id - this is the LogA JSON [resourceId](https://github.com/Cyberlorians/M-21-31/blob/main/Images/LogAResourceId.png) of the LogA workspace.
 </p>
 </details>
+
+<details><summary>M2131-ICAM-AADNonInteractive - To Save Costs/summary>
+<p>
+
+**Guidance - Federal agencies are transforming AADNonInteractiveLogs to optimize cost efficiency and enhance their cybersecurity posture. This transformation involves removing redundant information related to Conditional Access (CA) policies. Specifically, the ConditionalAccessPolicies column in the AADNonInteractiveUserSignInLogs table duplicates information that is already available in the SignInLogs table. This redundancy causes inefficiency and substantially inflates log ingestion, particularly concerning Conditional Access policies.
+
+To optimize cost efficiency, the data collection rule applied to the AADNonInteractiveUserSignInLogs table retains only successfully applied and failed Conditional Access policies. This approach significantly reduces the size of the logs by filtering out non-essential data, thereby saving on storage and processing costs.
+
+By focusing on critical event artifacts and eliminating redundant information, federal agencies can maintain robust security monitoring and incident response capabilities while minimizing unnecessary expenditures on data storage and processing.
+
+[Transformation Rule](https://github.com/Cyberlorians/M-21-31/blob/main/EL0/Identity/Transform-AADNonInteractive.md)
+
+</p>
+</details>
