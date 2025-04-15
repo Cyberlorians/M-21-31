@@ -31,7 +31,7 @@
 2. Grab the [M2131-ICAM-EntraConnectAdminActions](https://github.com/Cyberlorians/M-21-31/blob/main/EL0/Identity/M2131-ICAM-EntraConnectAdminActions.json) & paste into the deployment.
 
 3. Configure Project Details as follows
-![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131-ICAM-Entra.png)
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131-icam-entraconnect.png)
    1. Subscription - where the DCR will reside.
    2. Resource Group - where DCR Will reside.
    3. Region - where DCR will reside.
