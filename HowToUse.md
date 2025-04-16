@@ -25,5 +25,4 @@
 </p>
 </details>
 
-## Left > Right Layout Overview
 
