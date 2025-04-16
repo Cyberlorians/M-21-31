@@ -1,28 +1,6 @@
 <details><summary>Event Logging Overview</summary>
 <p>
 
-1. Left > Right layout.
-   a. CriticalityID - Used as a mapping reference.
-   b. Function - This is M2131 Function depicted on their guidance.
-   c. Category - filtration within function.
-   d. Sub-Category - filtration within category.
-   e. Required Data - Executive Orders requirement
-   f. Workload - Depicts what workload/technology is to be enabled for event verification.
-   g. Table - The table that is written to Log Analytics Workspace.
-   h. Schema - The schema within the table.
-   i. Schema Value - The value which is focused on within the schema for event verification.
-   j. IsCollected - User must verify that the table is being collected via the Workload and Table Management form.
-   k. Event Validated - User must verify if the event has been verified via the Event Queries tab and Sentinel Workbook (if applicable).
-![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp1.png)
-![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp2.png)
-![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp3.png)
-![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp4.png)
-![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp5.png)
-</p>
-</details>
-
-## Left > Right Layout Overview
-
 | Field             | Description                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------|
 | **CriticalityID**   | Used as a mapping reference.                                                                      |
@@ -36,4 +14,16 @@
 | **Schema Value**    | The value which is focused on within the schema for event verification.                           |
 | **IsCollected**     | User must verify that the table is being collected via the Workload and Table Management form.    |
 | **Event Validated** | User must verify if the event has been verified via the Event Queries tab and Sentinel Workbook (if applicable). |
+
+
+  
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp1.png)
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp2.png)
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp3.png)
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp4.png)
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp5.png)
+</p>
+</details>
+
+## Left > Right Layout Overview
 
