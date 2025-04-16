@@ -15,8 +15,7 @@
 | **IsCollected**     | User must verify that the table is being collected via the Workload and Table Management form.    |
 | **Event Validated** | User must verify if the event has been verified via the Event Queries tab and Sentinel Workbook (if applicable). |
 
-
-  
+ 
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp1.png)
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp2.png)
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp3.png)
