@@ -72,7 +72,7 @@ Once the box is checked as collected, the Table Implementation Status form will 
 <details><summary>Event Verification Workbook</summary>
 <p>
 
-Copy the [M2131-Event-Verfication]() Workbook to your LogA instance. Select The options as shown below. Click on Category and proper CriticalityID that needs to be verified.
+Copy the [M2131-EL-Verfication](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Verification.json) Workbook to your LogA instance. Select The options as shown below. Click on Category and proper CriticalityID that needs to be verified.
 
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook1.png)
 
