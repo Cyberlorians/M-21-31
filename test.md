@@ -20,7 +20,7 @@ The **Event Logging Form** is the primary interface used to define and track log
 | **Schema**            | Describes the expected structure of the data within the specified table.                          |
 | **Schema Value**      | The specific schema field that must be validated to confirm event logging.                        |
 | **IsCollected**       | Indicates whether the event table is actively being ingested (verified via Table Management form).|
-| **Event Validated**   | Confirms event validation, performed via the **Event Queries** tab and **Microsoft Sentinel Workbook**. |
+| **Event Validated**   | Confirms event validation, performed via the **Event Queries Tab** and **Microsoft Sentinel Workbook**. |
 
 ![Event Logging Form](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp1.png)
 
@@ -110,7 +110,7 @@ Once a table is marked as **collected**, the **Table Implementation Status** for
 
 Use the [M-21-31 Event Verification Workbook](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Verification.json) in your **Log Analytics** or **Microsoft Sentinel** workspace.
 
-1. Import the Workbook into your Log Analytics workspace.
+1. Import the Workbook into your **Log Analytics** workspace.
 2. Choose the appropriate **Category** and **CriticalityID** to verify the events being collected.
 
 > **Note:** As this is a **v1 release in beta**, only the **parameters specified for selection** are available. Other parameters and data will be updated in future releases.
@@ -165,4 +165,3 @@ Choose a maturity level to see the specific logging data, event artifacts, and c
 > While the app assists with event collection tracking and configuration mapping, actual **event validation and forensic proof must be conducted within Microsoft Sentinel**, using the **Event Verification Workbook** or equivalent tools.
 
 ---
-
