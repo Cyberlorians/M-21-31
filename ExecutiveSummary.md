@@ -1,80 +1,71 @@
 ---
 
-# M2131 Project Overview
+# M-21-31 Project Overview
 
-The **M-21-31 Project** is a comprehensive initiative aimed at significantly enhancing the cybersecurity capabilities of U.S. Federal agencies. Aligned with **Executive Order 14028**, the project addresses the urgent need for improved cybersecurity practices and compliance across the federal landscape. While this approach is primarily focused on Microsoft products and solutions, the PowerApp solution also offers the flexibility for users to incorporate data from outside the Microsoft ecosystem, allowing for broader integration with other systems and technologies.
+The **M-21-31 Project** is a comprehensive initiative aimed at strengthening the cybersecurity capabilities of U.S. Federal agencies, aligned with **Executive Order 14028**. This initiative is designed to address critical cybersecurity challenges and improve agency preparedness across the federal landscape. **M-21-31** outlines the importance of improving visibility and preparedness before, during, and after cybersecurity incidents, ensuring that agencies have the tools needed to detect, respond to, and recover from threats effectively.
 
 ---
 
 ## Core Objectives
 
-### 🔍 Improving Visibility
-The project focuses on improving visibility **before, during, and after a cybersecurity incident** by establishing centralized access for each agency’s Security Operations Center (SOC). This enables more responsive, coordinated, and effective incident response.
+### 🔍 Improving Visibility  
+The **M-21-31** project prioritizes enhancing visibility **before, during, and after** a cybersecurity incident by establishing centralized access for each agency’s **Security Operations Center (SOC)**. This centralized approach enables more **coordinated, responsive, and effective incident response**, providing the necessary insights for proactive threat detection and mitigation.
 
-### 📊 Event Logging Maturity Model
-To drive consistent progress, M-21-31 defines a structured maturity model for event logging. The model aligns with the timelines outlined in OMB M-21-31:
+### 📊 Event Logging Maturity Model  
+The **M-21-31** Executive Order introduces a structured **Event Logging Maturity Model** to help agencies progressively improve their event logging capabilities. The model includes four key maturity levels, each building on the previous to ensure comprehensive event logging across various levels of criticality.
+
+#### Event Logging Maturity Levels:
+
+- **EL0 (Not Effective):** Logging requirements of highest criticality are either not met or only partially met.  
+- **EL1 (Basic):** Only logging requirements of highest criticality are met.  
+- **EL2 (Intermediate):** Logging requirements of highest and intermediate criticality are met.  
+- **EL3 (Advanced):** Logging requirements at all criticality levels are met.
 
 #### Key Timelines:
-
-- **Within 60 Days (October 26, 2021):**  
-  Agencies should evaluate their maturity against the model and identify implementation gaps.
-
-- **Within 1 Year (August 27, 2022):**  
-  Agencies must achieve **Event Logging Tier 1 (EL1)** maturity.
-
-- **Within 18 Months (February 27, 2023):**  
-  Agencies should reach **EL2** maturity.
-
-- **Within 2 Years (August 27, 2023):**  
-  Agencies are expected to achieve **EL3** maturity.
-
-Each tier represents a progressive level of logging capability:
-
-- **EL1:** Basic logging capabilities operational  
-- **EL2:** Enhanced logging for better data collection and analysis  
-- **EL3:** Advanced logging supporting effective threat detection and mitigation
+- **Within 60 Days (October 26, 2021):** Agencies should assess their maturity against the model and identify implementation gaps.  
+- **Within 1 Year (August 27, 2022):** Agencies must achieve **Event Logging Tier 1 (EL1)** maturity.  
+- **Within 18 Months (February 27, 2023):** Agencies should reach **EL2** maturity.  
+- **Within 2 Years (August 27, 2023):** Agencies are expected to achieve **EL3** maturity.
 
 ### 🗂️ Direct Mappings and Event Artifacts  
-The project starts by identifying the required data specified in the **M-21-31 Executive Order**. Using this data, it creates structured mappings that align each requirement with specific **Microsoft** workloads, tables, and schemas. These mappings generate **event artifacts** that serve as the foundation for:
+The **M-21-31** project begins by identifying the required data specified in the **Executive Order**. It then creates structured mappings that align each requirement with specific **Microsoft** workloads, tables, and schemas. These mappings generate **event artifacts** that serve as the foundation for:
 
 - Day-to-day security operations  
 - Audit readiness and evidence collection  
 - Ongoing compliance validation
 
-### 🛡️ Comprehensive GRC and DFIR Tooling
-The offering created through M-21-31 is designed to become a full-featured:
+While primarily designed for **Microsoft** products, the **PowerApp** solution also offers the flexibility for users to integrate data from outside the **Microsoft ecosystem**, enabling broader compatibility with other systems and technologies.
 
-- **Governance, Risk, and Compliance (GRC)** tool  
-- **Digital Forensics and Incident Response (DFIR)** platform
-
-This toolset supports **CIOs, CISOs, SOC analysts, and auditors**, providing the functionality needed to manage compliance, investigate incidents, and strengthen cybersecurity frameworks.
+### 🛡️ Comprehensive GRC and DFIR Tooling  
+M-21-31 aims to deliver a full-featured **Governance, Risk, and Compliance (GRC)** tool, as well as a **Digital Forensics and Incident Response (DFIR)** platform. These tools support **CIOs, CISOs, SOC analysts, and auditors**, helping them manage compliance, investigate incidents, and bolster cybersecurity frameworks to align with **M-21-31** requirements.
 
 ---
 
 ## Guiding Principles
 
-### 🔄 Continuous Improvement
-M-21-31 tools and services are **regularly updated** to reflect the latest developments in:
+### 🔄 Continuous Improvement  
+The tools and services offered under **M-21-31** are regularly updated to incorporate the latest advancements in:
 
 - Cybersecurity best practices  
-- Logging technologies  
-- Federal compliance requirements
+- Log management technologies  
+- Federal compliance standards
 
-Developed by dedicated employees on their own time, the project reflects a deep commitment to national security.
+Developed by dedicated professionals in their own time, **M-21-31** reflects a commitment to **national security** and continuous improvement in the cybersecurity space.
 
-### 🤝 Collaboration and Support
-M-21-31 promotes a collaborative approach, working directly with agencies to meet their specific needs. **Ongoing support** ensures smooth implementation of M-21-31 requirements.
+### 🤝 Collaboration and Support  
+**M-21-31** promotes collaboration, working alongside federal agencies to address unique cybersecurity challenges. **Ongoing support** ensures that agencies have the assistance needed for smooth implementation of **M-21-31** guidelines.
 
 ---
 
-## 🚀 Impact
+## 🚀 Impact  
 
-By leveraging cutting-edge technology and deep domain expertise, **U.S. Federal agencies** can:
+By leveraging cutting-edge technologies and deep domain expertise, **U.S. Federal agencies** can:
 
 - Enhance their cybersecurity posture  
-- Ensure ongoing compliance with M-21-31  
-- Safeguard critical systems and data  
+- Ensure ongoing compliance with **M-21-31**  
+- Safeguard critical systems and data
 
 ---
 
 Please contact us at **m2131collective@microsoft.com** for any feedback and/or assistance.
+
