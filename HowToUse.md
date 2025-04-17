@@ -20,7 +20,7 @@
 
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp1.png)
 
-2. In Overview, the same data is shown from the main form. In addition to, Reference content which will give a reference of what the data is and how to enable the workload. History is used to enter notes, email etc.
+2 - In Overview, the same data is shown from the main form. In addition to, Reference content which will give a reference of what the data is and how to enable the workload. History is used to enter notes, email etc.
 
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp2.png)
 
