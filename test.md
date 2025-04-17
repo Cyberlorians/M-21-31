@@ -63,3 +63,57 @@ The **Event Queries** tab will display the `EventKQL`. Once confirmed, you can t
 
 </p>
 </details>
+
+---
+
+<details>
+<summary><strong>📂 Workload & Table Management</strong></summary>
+<p>
+
+This interface mirrors how diagnostic logs (e.g., Entra ID) are enabled in Log Analytics/Sentinel.
+
+1. Select a **workload**.  
+2. On the right, select the **tables being ingested**.
+
+> ✅ When a table is selected, it will be flagged as "collected"—meaning it's being ingested and is ready to receive validated events.
+
+![Workload Selection](https://github.com/Cyberlorians/M-21-31/blob/main/Images/TableCollection1.png)
+
+Once a table is marked as collected, the **Table Implementation Status** form will **auto-update** with:
+
+- Implementation status  
+- Date implemented  
+- Connection status
+
+![Auto Update View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/TableCollection2.png)
+
+</p>
+</details>
+
+---
+
+<details>
+<summary><strong>📑 Event Verification Workbook</strong></summary>
+<p>
+
+Use the [M2131-EL-Verification Workbook](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Verification.json) in your Log Analytics workspace.
+
+1. Import the workbook.  
+2. Choose the **Category** and **CriticalityID** to verify.
+
+![Workbook Overview](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook1.png)
+
+Once selected, the workbook will:
+
+- Correlate the **CriticalityID**  
+- Display **KQL artifacts**  
+- Confirm **Event Verification**
+
+> ⚠️ If no data appears:  
+> - Adjust the KQL via the **Log Analytics icon** next to "Event Verification"  
+> - Confirm if any relevant events exist for validation
+
+![KQL & Verification](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook2.png)
+
+</p>
+</details>
