@@ -1,5 +1,3 @@
-Absolutely! Here's a polished version of your content formatted for **Markdown**, with proper heading levels, bullet consistency, spacing, and emphasis to make it clean and professional for a GitHub page, README, or internal documentation:
-
 ---
 
 # M2131 Project Overview
