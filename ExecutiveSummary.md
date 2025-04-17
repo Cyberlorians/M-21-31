@@ -35,13 +35,13 @@ Each tier represents a progressive level of logging capability:
 - **EL3:** Advanced logging supporting effective threat detection and mitigation
 
 ### 🗂️ Direct Mappings and Event Artifacts  
-The project begins by identifying the **required data specified in the M-21-31 Executive Order**. From there, it creates structured mappings that align each requirement with specific workloads, tables, and schemas. These mappings then generate **event artifacts** that serve as the foundation for:
+The project starts by identifying the required data specified in the **M-21-31 Executive Order**. Using this data, it creates structured mappings that align each requirement with specific **Microsoft** workloads, tables, and schemas. These mappings generate **event artifacts** that serve as the foundation for:
 
 - Day-to-day security operations  
 - Audit readiness and evidence collection  
 - Ongoing compliance validation
 
-This approach streamlines reporting processes and provides clear, traceable evidence for auditors, making it easier for agencies to demonstrate alignment with federal cybersecurity mandates.
+While this approach is primarily focused on **Microsoft products and solutions**, the **PowerApp** solution also offers the flexibility for users to incorporate data from outside the **Microsoft ecosystem**, allowing for broader integration with other systems and technologies.
 
 ### 🛡️ Comprehensive GRC and DFIR Tooling
 The offering created through M-21-31 is designed to become a full-featured:
