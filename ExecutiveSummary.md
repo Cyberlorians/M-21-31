@@ -1,6 +1,6 @@
 ---
 
-# M-21-31 Project Overview
+# M-21-31 Maturity Model Management App
 
 The **M-21-31 Project** is a comprehensive initiative aimed at strengthening the cybersecurity capabilities of U.S. Federal agencies, aligned with **Executive Order 14028**. This initiative is designed to address critical cybersecurity challenges and improve agency preparedness across the federal landscape. **M-21-31** outlines the importance of improving visibility and preparedness before, during, and after cybersecurity incidents, ensuring that agencies have the tools needed to detect, respond to, and recover from threats effectively.
 
@@ -37,7 +37,7 @@ The **M-21-31** project begins by identifying the required data specified in the
 While primarily designed for **Microsoft** products, the **PowerApp** solution also offers the flexibility for users to integrate data from outside the **Microsoft ecosystem**, enabling broader compatibility with other systems and technologies.
 
 ### 🛡️ Comprehensive GRC and DFIR Tooling  
-M-21-31 aims to deliver a full-featured **Governance, Risk, and Compliance (GRC)** tool, as well as a **Digital Forensics and Incident Response (DFIR)** platform. These tools support **CIOs, CISOs, SOC analysts, and auditors**, helping them manage compliance, investigate incidents, and bolster cybersecurity frameworks to align with **M-21-31** requirements.
+M-21-31 Maturity Model Management App aims to deliver a full-featured **Governance, Risk, and Compliance (GRC)** tool, as well as a **Digital Forensics and Incident Response (DFIR)** platform. These tools support **CIOs, CISOs, SOC analysts, and auditors**, helping them manage compliance, investigate incidents, and bolster cybersecurity frameworks to align with **M-21-31** requirements.
 
 ---
 
