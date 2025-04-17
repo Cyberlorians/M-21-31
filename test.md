@@ -110,8 +110,10 @@ Once a table is marked as **collected**, the **Table Implementation Status** for
 
 Use the [M-21-31 Event Verification Workbook](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Verification.json) in your **Log Analytics** or **Microsoft Sentinel** workspace.
 
-1. **Import the Workbook** into your Log Analytics workspace.
+1. Import the Workbook into your Log Analytics workspace.
 2. Choose the appropriate **Category** and **CriticalityID** to verify the events being collected.
+
+> **Note:** As this is a **v1 release in beta**, only the **parameters specified for selection** are available. Other parameters and data will be updated in future releases.
 
 ![Workbook Overview](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook1.png)
 
