@@ -2,7 +2,7 @@
 
 # M2131 Project Overview
 
-The **M-21-31 Project** is a comprehensive initiative aimed at significantly enhancing the cybersecurity capabilities of U.S. Federal agencies. Aligned with **Executive Order 14028**, the project addresses the urgent need for improved cybersecurity practices and compliance across the federal landscape.
+The **M-21-31 Project** is a comprehensive initiative aimed at significantly enhancing the cybersecurity capabilities of U.S. Federal agencies. Aligned with **Executive Order 14028**, the project addresses the urgent need for improved cybersecurity practices and compliance across the federal landscape. While this approach is primarily focused on Microsoft products and solutions, the PowerApp solution also offers the flexibility for users to incorporate data from outside the Microsoft ecosystem, allowing for broader integration with other systems and technologies.
 
 ---
 
@@ -40,8 +40,6 @@ The project starts by identifying the required data specified in the **M-21-31 E
 - Day-to-day security operations  
 - Audit readiness and evidence collection  
 - Ongoing compliance validation
-
-While this approach is primarily focused on **Microsoft products and solutions**, the **PowerApp** solution also offers the flexibility for users to incorporate data from outside the **Microsoft ecosystem**, allowing for broader integration with other systems and technologies.
 
 ### 🛡️ Comprehensive GRC and DFIR Tooling
 The offering created through M-21-31 is designed to become a full-featured:
