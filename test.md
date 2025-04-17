@@ -146,7 +146,7 @@ The Event Logging Dashboard provides a clear visual representation of the differ
 
 Choose a maturity level to see the specific logging data, event artifacts, and compliance status in more detail.
 
-![Select EL Dashboard](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131db1.png)
+![Select EL Dashboard](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131db2.png)
 
 </p>
 </details>
