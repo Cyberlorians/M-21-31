@@ -1,4 +1,6 @@
-<details><summary>Event Logging Overview</summary>
+<details>
+<summary>Event Logging Overview</summary>
+<div>
 
 1. Overview.
 
@@ -38,6 +40,5 @@
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp4.png)
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp5.png)
 
+</div>
 </details>
-
-
