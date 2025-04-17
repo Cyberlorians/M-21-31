@@ -2,71 +2,105 @@
 
 # M-21-31 Maturity Model Management App
 
-The **M-21-31 Maturity Model Management App** is a comprehensive solution aimed at strengthening the cybersecurity capabilities of U.S. Federal agencies, aligned with **Executive Order 14028**. This new offering was created to help agencies enhance their preparedness and compliance with cybersecurity requirements. The app offers a structured approach to improving event logging, enabling agencies to monitor, assess, and validate their progress in meeting the requirements outlined in **Executive Order M-21-31**.
+The **M-21-31 Maturity Model Management App** is a comprehensive solution designed to strengthen the cybersecurity capabilities of U.S. Federal agencies. Aligned with **Executive Order 14028** and developed in response to **Executive Order M-21-31**, this new offering enables agencies to manage and mature their event logging capabilities, validate compliance, and enhance visibility before, during, and after a cybersecurity incident.
 
 ---
 
 ## Core Objectives
 
 ### 🔍 Improving Visibility  
-The **M-21-31 Maturity Model Management App** is designed to prioritize enhancing visibility **before, during, and after** a cybersecurity incident. By providing centralized access for each agency’s **Security Operations Center (SOC)**, this app helps ensure that agencies can detect, investigate, and remediate cybersecurity incidents more effectively. This centralized approach enables **coordinated, responsive, and effective incident response**, giving SOC teams the necessary insights for proactive threat detection and mitigation.
+The **M-21-31 Maturity Model Management App** prioritizes visibility across the full incident lifecycle. By centralizing event logging data and implementation tracking, agencies gain clearer insights into log coverage and potential blind spots. This enables more **responsive, coordinated, and effective incident response**, while also supporting proactive threat mitigation.
+
+---
 
 ### 📊 Event Logging Maturity Model  
-The **M-21-31 Maturity Model Management App** is built around the **Event Logging Maturity Model**, which introduces four levels of event logging maturity. The app helps agencies track and achieve each level, progressively improving their event logging practices and ensuring that all required data is captured and retained.
+
+M-21-31 introduces a maturity model to ensure consistent and structured improvement of logging practices across federal agencies. The **M-21-31 Maturity Model Management App** is designed to help agencies assess, plan, and track their progress toward full compliance.
 
 #### Event Logging Maturity Levels:
-- **EL0 (Not Effective):** Logging requirements of highest criticality are either not met or only partially met.  
-- **EL1 (Basic):** Only logging requirements of highest criticality are met.  
+- **EL0 (Not Effective):** Logging requirements of highest criticality are not met or only partially met.  
+- **EL1 (Basic):** Logging requirements of highest criticality are met.  
 - **EL2 (Intermediate):** Logging requirements of highest and intermediate criticality are met.  
-- **EL3 (Advanced):** Logging requirements at all criticality levels are met.
+- **EL3 (Advanced):** Logging requirements across all criticality levels are fully met.
 
 #### Key Timelines:
-- **Within 60 Days (October 26, 2021):** Agencies should evaluate their maturity against the model and identify implementation gaps.  
-- **Within 1 Year (August 27, 2022):** Agencies must achieve **Event Logging Tier 1 (EL1)** maturity.  
-- **Within 18 Months (February 27, 2023):** Agencies should reach **EL2** maturity.  
-- **Within 2 Years (August 27, 2023):** Agencies are expected to achieve **EL3** maturity.
+- **Within 60 Days (October 26, 2021):** Agencies evaluate their maturity and identify implementation gaps.  
+- **Within 1 Year (August 27, 2022):** Achieve **EL1** maturity.  
+- **Within 18 Months (February 27, 2023):** Reach **EL2** maturity.  
+- **Within 2 Years (August 27, 2023):** Attain **EL3** maturity.
 
-### 🗂️ Direct Mappings and Event Artifacts  
-The **M-21-31 Maturity Model Management App** begins by identifying the required data specified in the **Executive Order**. It creates structured mappings that align each requirement with specific **Microsoft** workloads, tables, and schemas. These mappings generate **event artifacts** that serve as the foundation for:
+---
 
-- Day-to-day security operations  
-- Audit readiness and evidence collection  
-- Ongoing compliance validation
+### 🗂️ Direct Mappings and Event Artifacts
 
-While primarily designed for **Microsoft** products, the **M-21-31 Maturity Model Management App** offers flexibility for users to integrate data from outside the **Microsoft ecosystem**, enabling broader compatibility with other systems and technologies.
+The **M-21-31 Maturity Model Management App** begins by identifying the **required data elements** outlined in the **M-21-31 Executive Order**. It then creates structured mappings that connect these requirements to specific **Microsoft workloads**, **Log Analytics tables**, and **data schemas**. These mappings help generate **event artifacts**—definable data points that are expected to be captured by an agency's logging infrastructure.
 
-### 🛡️ Comprehensive GRC and DFIR Tooling  
-The **M-21-31 Maturity Model Management App** is designed to be a full-featured **Governance, Risk, and Compliance (GRC)** tool as well as a **Digital Forensics and Incident Response (DFIR)** platform. This new app supports **CIOs, CISOs, SOC analysts, and auditors**, helping them manage compliance, investigate incidents, and strengthen cybersecurity frameworks in line with **M-21-31** requirements.
+These artifacts form the foundation for:
 
-Additionally, the **Microsoft Sentinel Event Verification Workbook** can be leveraged with Microsoft Sentinel to **prove event logging**. This workbook provides an interactive solution to verify that events have been properly logged and are accessible for auditing, further supporting compliance with **M-21-31** guidelines.
+- **Day-to-day security operations**  
+- **Audit readiness and evidence collection**  
+- **Ongoing compliance validation**
+
+This approach ensures agencies have a clear understanding of what data is expected and where it should reside. While the app is optimized for **Microsoft technologies**, it offers the flexibility for users to manually track log data from **non-Microsoft environments**, allowing broader integration with hybrid systems and third-party platforms.
+
+Importantly, while the app **tracks** whether the correct logs are configured and expected to be collected, **actual event validation happens within Microsoft Sentinel**, using the **Event Verification Workbook**. This separation ensures that tracking and forensic proof are handled in their appropriate systems.
+
+---
+
+### 🛡️ Comprehensive GRC and DFIR Tooling
+
+The **M-21-31 Maturity Model Management App** is more than just a compliance tracker. It functions as a full-featured:
+
+- **Governance, Risk, and Compliance (GRC)** tool  
+- **Digital Forensics and Incident Response (DFIR)** enabler
+
+#### GRC Support:
+- Enables agency leadership (CIOs, CISOs, auditors) to **monitor logging posture**
+- Tracks **maturity progress** across EL0–EL3 tiers
+- Offers an **audit-ready structure** for compliance with M-21-31
+
+#### DFIR Support:
+The app significantly enhances DFIR readiness by mapping what logs should exist, where they should be stored, and ensuring retention settings are in place. However, **event validation is performed within Microsoft Sentinel**, using the dedicated:
+
+> 🔎 **Microsoft Sentinel Event Verification Workbook**  
+> This workbook confirms that log events were successfully collected by Sentinel, using KQL queries and visualizations. It provides **forensic-level validation** that is essential for incident investigation, root cause analysis, and regulatory reporting.
+
+Together, these tools deliver an end-to-end solution:
+
+- The **App** provides **tracking, planning, and compliance mapping**  
+- **Sentinel + Workbook** delivers **event proof, log validation, and forensic readiness**
+
+This approach gives DFIR and SOC teams a single source of truth for what should be logged and where to go to prove it, enhancing both **incident response** and **evidence integrity**.
 
 ---
 
 ## Guiding Principles
 
 ### 🔄 Continuous Improvement  
-The **M-21-31 Maturity Model Management App** is regularly updated to incorporate the latest advancements in:
+The **M-21-31 Maturity Model Management App** is continuously enhanced to reflect the latest in:
 
 - Cybersecurity best practices  
-- Log management technologies  
-- Federal compliance standards
+- Logging technologies  
+- Federal mandates and guidance  
 
-Developed by dedicated professionals in their own time, the **M-21-31 Maturity Model Management App** reflects a deep commitment to **national security** and continuous improvement in the cybersecurity space.
+Created by cybersecurity professionals on their own time, the app is rooted in a strong commitment to national security and federal collaboration.
 
 ### 🤝 Collaboration and Support  
-**M-21-31 Maturity Model Management App** promotes collaboration, working alongside federal agencies to address unique cybersecurity challenges. **Ongoing support** ensures that agencies have the assistance needed for smooth implementation of **M-21-31** guidelines.
+Designed with flexibility in mind, the app fosters cooperation with federal agencies to meet unique operational needs. Dedicated support teams are available to help with deployment, training, and optimization for your specific mission objectives.
 
 ---
 
 ## 🚀 Impact  
 
-By leveraging cutting-edge technologies and deep domain expertise, **U.S. Federal agencies** can:
+By leveraging this modernized approach to log maturity management and validation, **U.S. Federal agencies** can:
 
-- Enhance their cybersecurity posture  
-- Ensure ongoing compliance with **M-21-31**  
-- Safeguard critical systems and data
+- Strengthen cybersecurity posture and visibility  
+- Validate compliance with **M-21-31** mandates  
+- Increase operational readiness for threat detection and incident response  
+- Improve forensic traceability and reduce response time during incidents  
 
 ---
 
-Please contact us at **m2131collective@microsoft.com** for any feedback and/or assistance.
+📫 **Need help or have feedback?**  
+Email us at **m2131collective@microsoft.com** for support, collaboration opportunities, or deployment guidance.
 
