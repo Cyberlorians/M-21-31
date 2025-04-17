@@ -68,3 +68,17 @@ Once the box is checked as collected, the Table Implementation Status form will 
 
 </p>
 </details>
+
+<details><summary>Event Verification Workbook</summary>
+<p>
+
+Copy the [M2131-Event-Verfication]() Workbook to your LogA instance. Select The options as shown below. Click on Category and proper CriticalityID that needs to be verified.
+
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook1.png)
+
+Once selected, the workbook will correlate the CriticalityID, show the KQL artifacts and prove the Event Verification. IF there is no data. Please adjust the kql with LogA icon next to EVENT VERIFICATION and/or their may not be an event to prove the event.
+
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook2.png)
+
+</p>
+</details>
