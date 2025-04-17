@@ -134,7 +134,7 @@ Once selected, the workbook will:
 <summary><strong>📊 Event Logging Dashboard</strong></summary>
 <p>
 
-### 🧑‍💻 Event Logging Tiers Overview
+### 🧑‍💻 Event Logging Tiers Summary
 
 The Event Logging Dashboard provides a clear visual representation of the different **Event Logging Maturity Levels** (EL0–EL3). It offers agencies an easy way to track their progress across various compliance tiers, helping teams ensure they meet all necessary logging requirements.
 
