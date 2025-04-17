@@ -47,6 +47,24 @@ When added, both locations will refelect but you will still need to update if yo
 
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp5.png)
 
+Event queries tab is giving you the EventKQL. Once confirmed, you may select the toggle switch of Event Validated and it will flag to yes.
+
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp6.png)
+
 </p>
 </details>
 
+
+<details><summary>Workload & Table Management</summary>
+<p>
+
+This is mimicked off how you would view, for example enabling Entra Diagnostic logs to LogA/Sentinel. Select the workload and on the right hand side, select the tables that are being ingested. Note - when selected, the table will flag as collected. What this means is the table is being collected in your logging strategy which are ready to accept "events". 
+
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/TableCollection1.png)
+
+Once the box is checked as collected, the Table Implementation Status form will automatically update to Implemented, Date implemented and Connected.
+
+![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/TableCollection2.png)
+
+</p>
+</details>
