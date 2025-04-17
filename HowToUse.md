@@ -2,7 +2,7 @@
 <p>
 
 
-1 - **Overview**
+1 - Event Logging Overview.
 
 | Field             | Description                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------|
@@ -24,7 +24,7 @@
 
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp2.png)
 
-3.Table Implementation Status
+3 - Table Implementation Status
 
 | Field             | Description                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------|
