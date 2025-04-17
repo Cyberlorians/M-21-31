@@ -129,3 +129,12 @@ Once selected, the workbook will:
 
 </p>
 </details>
+
+<details>
+<summary><strong>📊 Event Logging Dashboard</strong></summary>
+<p>
+
+<!-- Add your content here -->
+
+</p>
+</details>
