@@ -39,9 +39,14 @@
    
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp3.png)
 
+Select "+New Storage Location", and enter enter where your logs are collected. For both, hot and cold, if applicable.
 
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp4.png)
+
+When added, both locations will refelect but you will still need to update if you are compliant with the mandate.
+
 ![](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp5.png)
+
 </p>
 </details>
 
