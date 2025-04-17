@@ -134,9 +134,20 @@ Once selected, the workbook will:
 <summary><strong>📊 Event Logging Dashboard</strong></summary>
 <p>
 
+### 🧑‍💻 Event Logging Tiers Overview
+
+The Event Logging Dashboard provides a clear visual representation of the different **Event Logging Maturity Levels** (EL0–EL3). It offers agencies an easy way to track their progress across various compliance tiers, helping teams ensure they meet all necessary logging requirements.
+
 ![Event Logging Tiers Summary](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131db1.png)
+
+---
+
+### 📈 Select Your EL Dashboard View
+
+Choose a maturity level to see the specific logging data, event artifacts, and compliance status in more detail.
 
 ![Select EL Dashboard](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131db1.png)
 
 </p>
 </details>
+
