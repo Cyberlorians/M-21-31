@@ -77,9 +77,12 @@ The **Event Queries Tab** is where you confirm the actual **KQL queries** used f
 
 ![Event Queries](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp6.png)
 
----
+</p>
+</details>
 
-### 📂 Workload & Table Management
+<details>
+<summary><strong>📂 Workload & Table Management</strong></summary>
+<p>
 
 This interface mirrors how diagnostic logs (e.g., Entra ID) are enabled in **Log Analytics** or **Microsoft Sentinel**.
 
@@ -98,22 +101,25 @@ Once a table is marked as **collected**, the **Table Implementation Status** for
 
 ![Auto Update View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/TableCollection2.png)
 
----
+</p>
+</details>
 
-### 📑 Event Verification Workbook
+<details>
+<summary><strong>📑 Event Verification Workbook</strong></summary>
+<p>
 
-The **[M-21-31 Event Verification Workbook](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Verification.json)** is designed to be used within **Microsoft Sentinel** or **Log Analytics** to confirm that event logs are being properly collected and meet the necessary criteria.
+Use the [M-21-31 Event Verification Workbook](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Verification.json) in your **Log Analytics** or **Microsoft Sentinel** workspace.
 
-1. **Import the Workbook**: Add the workbook to your **Log Analytics** workspace.
-2. **Choose the Category and CriticalityID** to match the events you wish to verify.
+1. **Import the Workbook** into your Log Analytics workspace.
+2. Choose the appropriate **Category** and **CriticalityID** to verify the events being collected.
 
 ![Workbook Overview](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook1.png)
 
-Once the correct **Category** and **CriticalityID** are selected, the workbook will:
+Once selected, the workbook will:
 
-- **Correlate the CriticalityID** with the logs in your system
-- **Display KQL artifacts** used for event validation
-- **Confirm event verification**, indicating whether the expected events are present in your data
+- **Correlate the CriticalityID** with the logs in your system.
+- **Display KQL artifacts** used for event validation.
+- **Confirm event verification**, indicating whether the expected events are present in your data.
 
 > ⚠️ If no data appears:  
 > - **Adjust the KQL** via the **Log Analytics icon** next to "Event Verification."  
