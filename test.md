@@ -2,118 +2,76 @@
 <summary><strong>📘 Event Logging Overview</strong></summary>
 <p>
 
-### Event Logging Form
+---
+
+### 🧾 Event Logging Form
+
+This is the main data-entry interface where users define and track logging requirements for specific workloads. It captures mapping details required by the M-21-31 Executive Order.
 
 | Field               | Description                                                                                      |
 |--------------------|--------------------------------------------------------------------------------------------------|
-| **CriticalityID**   | Used as a mapping reference.                                                                      |
-| **Function**        | The M2131 Function as defined in the official guidance.                                           |
-| **Category**        | Logical grouping within the function.                                                            |
-| **Sub-Category**    | Additional filtering within the category.                                                        |
-| **Required Data**   | Requirement from Executive Orders.                                                               |
-| **Workload**        | Specifies what workload/technology must be enabled for event verification.                       |
-| **Table**           | The Log Analytics Workspace table where events are written.                                      |
-| **Schema**          | The schema structure of the table.                                                               |
-| **Schema Value**    | The specific schema element being validated for the event.                                       |
-| **IsCollected**     | User must confirm table collection via the Workload & Table Management form.                     |
-| **Event Validated** | User must confirm validation via the Event Queries tab and Sentinel Workbook (if applicable).    |
+| **CriticalityID**   | Mapping identifier based on log importance/urgency.                                              |
+| **Function**        | Corresponds to M-21-31 logging functions as outlined in the official guidance.                   |
+| **Category**        | Logical grouping of logging requirements.                                                        |
+| **Sub-Category**    | Further refinement of the category to pinpoint scope.                                            |
+| **Required Data**   | Defines the data required under M-21-31 or EO 14028.                                             |
+| **Workload**        | Specifies which Microsoft service or technology is responsible for generating the log.          |
+| **Table**           | The Log Analytics Workspace table where the data is collected.                                   |
+| **Schema**          | Structure of the expected data within the selected table.                                        |
+| **Schema Value**    | The specific log field to be validated.                                                          |
+| **IsCollected**     | Indicates if the table is actively being ingested (validated through Table Management view).     |
+| **Event Validated** | Confirmed via the Event Queries tab and Microsoft Sentinel Workbook (if applicable).             |
 
-![Event Logging Form Overview](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp1.png)
-
----
-
-### Main Form Reference View
-
-This section replicates the data from the main form. It also includes:
-
-- **Reference Content**: Offers descriptions and instructions on how to enable workloads.  
-- **History**: A section to log notes, emails, or relevant correspondence.
-
-![Form Reference View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp2.png)
+![Event Logging Form](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp1.png)
 
 ---
 
-### Table Implementation Status
+### 📖 Reference View & Notes
 
-| Field                   | Description                                                                                      |
-|------------------------|--------------------------------------------------------------------------------------------------|
-| **Table**              | Used as a mapping reference.                                                                      |
-| **Table Implementation** | Automatically updates based on workload and table form.                                         |
-| **Implementation Date**  | Automatically updates based on workload and table form.                                         |
-| **In Use**             | Indicates if the table is actively in use.                                                       |
-| **Connected**          | Auto-adjusts when workload and table are properly linked.                                        |
-| **12 Month Retention** | Selection-based; optional setting for compliance.                                                |
-| **18 Month Retention** | Selection-based; optional setting for compliance.                                                |
+This view replicates the main form’s data but includes:
+
+- **Reference Content**: How-to instructions and contextual metadata for each workload  
+- **History Section**: Notes, comments, emails, or supporting artifacts
+
+![Reference View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp2.png)
+
+---
+
+### 📈 Table Implementation Status
+
+Tracks whether event tables have been implemented and aligned with retention standards.
+
+| Field                    | Description                                                                                  |
+|--------------------------|----------------------------------------------------------------------------------------------|
+| **Table**                | Table name in Log Analytics Workspace                                                        |
+| **Table Implementation** | Updated dynamically based on selections in Workload & Table Management                       |
+| **Implementation Date**  | Auto-populated upon table confirmation                                                       |
+| **In Use**               | Toggle to indicate whether this table is actively used                                       |
+| **Connected**            | Reflects current linkage status between workload and table                                   |
+| **12 Month Retention**   | Optional selection for retention verification                                                |
+| **18 Month Retention**   | Optional selection for extended retention compliance                                         |
 
 ![Table Implementation Status](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp3.png)
 
 ---
 
-Select **"+New Storage Location"** and enter where your logs are collected (both hot and cold storage, if applicable).
+### 🗄️ Storage Configuration
 
-![New Storage Location](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp4.png)
+Click **"+New Storage Location"** to specify your log collection destinations (e.g., hot or cold storage). This supports visibility into log flow and physical storage compliance.
 
-Once added, both locations will reflect in the interface. However, **you must still update your compliance status manually** if required.
+![Add Storage Location](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp4.png)
 
-![Storage Locations View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp5.png)
+Once added, the locations will appear in the interface. **Manual updates are required** to reflect current compliance standing.
 
-The **Event Queries** tab will display the `EventKQL`. Once confirmed, you can toggle **Event Validated** to "Yes".
-
-![Event Queries View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp6.png)
-
-</p>
-</details>
+![Storage Location View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp5.png)
 
 ---
 
-<details>
-<summary><strong>📂 Workload & Table Management</strong></summary>
-<p>
+### 🧪 Event Queries Tab
 
-This interface mirrors how diagnostic logs (e.g., Entra ID) are enabled in Log Analytics/Sentinel.
+The **Event Queries** tab provides the actual KQL used for validation. Once confirmed through Sentinel or manual review, toggle **Event Validated** to "Yes".
 
-1. Select a **workload**.  
-2. On the right, select the **tables being ingested**.
-
-> ✅ When a table is selected, it will be flagged as "collected"—meaning it's being ingested and is ready to receive validated events.
-
-![Workload Selection](https://github.com/Cyberlorians/M-21-31/blob/main/Images/TableCollection1.png)
-
-Once a table is marked as collected, the **Table Implementation Status** form will **auto-update** with:
-
-- Implementation status  
-- Date implemented  
-- Connection status
-
-![Auto Update View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/TableCollection2.png)
-
-</p>
-</details>
-
----
-
-<details>
-<summary><strong>📑 Event Verification Workbook</strong></summary>
-<p>
-
-Use the [M2131-EL-Verification Workbook](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Verification.json) in your Log Analytics workspace.
-
-1. Import the workbook.  
-2. Choose the **Category** and **CriticalityID** to verify.
-
-![Workbook Overview](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook1.png)
-
-Once selected, the workbook will:
-
-- Correlate the **CriticalityID**  
-- Display **KQL artifacts**  
-- Confirm **Event Verification**
-
-> ⚠️ If no data appears:  
-> - Adjust the KQL via the **Log Analytics icon** next to "Event Verification"  
-> - Confirm if any relevant events exist for validation
-
-![KQL & Verification](https://github.com/Cyberlorians/M-21-31/blob/main/Images/workbook2.png)
+![Event Queries](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp6.png)
 
 </p>
 </details>
