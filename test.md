@@ -134,7 +134,9 @@ Once selected, the workbook will:
 <summary><strong>📊 Event Logging Dashboard</strong></summary>
 <p>
 
-<!-- Add your content here -->
+![Event Logging Tiers Summary](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131db1.png)
+
+![Select EL Dashboard](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131db1.png)
 
 </p>
 </details>
