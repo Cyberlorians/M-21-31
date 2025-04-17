@@ -12,11 +12,27 @@ The **M2131 Project** is a comprehensive initiative aimed at significantly enhan
 The project focuses on improving visibility **before, during, and after a cybersecurity incident** by establishing centralized access for each agency’s Security Operations Center (SOC). This enables more responsive, coordinated, and effective incident response.
 
 ### 📊 Event Logging Maturity Model
-To drive consistent progress, M2131 defines a structured maturity model for event logging:
+To drive consistent progress, M2131 defines a structured maturity model for event logging. The model aligns with the timelines outlined in OMB M-21-31:
 
-- **Within 1 Year — EL1:** Basic logging capabilities operational.  
-- **Within 18 Months — EL2:** Enhanced logging for better data collection and analysis.  
-- **Within 2 Years — EL3:** Advanced logging supporting effective threat detection and mitigation.
+#### Key Timelines:
+
+- **Within 60 Days (October 26, 2021):**  
+  Agencies should evaluate their maturity against the model and identify implementation gaps.
+
+- **Within 1 Year (August 27, 2022):**  
+  Agencies must achieve **Event Logging Tier 1 (EL1)** maturity.
+
+- **Within 18 Months (February 27, 2023):**  
+  Agencies should reach **EL2** maturity.
+
+- **Within 2 Years (August 27, 2023):**  
+  Agencies are expected to achieve **EL3** maturity.
+
+Each tier represents a progressive level of logging capability:
+
+- **EL1:** Basic logging capabilities operational  
+- **EL2:** Enhanced logging for better data collection and analysis  
+- **EL3:** Advanced logging supporting effective threat detection and mitigation
 
 ### 🗂️ Direct Mappings and Event Artifacts
 The project includes **direct mappings aligned with M-21-31** requirements. These mappings generate **event artifacts** that are critical for:
@@ -63,4 +79,4 @@ By leveraging cutting-edge technology and deep domain expertise, **U.S. Federal 
 
 ---
 
-Please contact us at m2131collective@microsoft.com for any feedback and/or assistance.
+Please contact us at **m2131collective@microsoft.com** for any feedback and/or assistance.
