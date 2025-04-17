@@ -34,14 +34,14 @@ Each tier represents a progressive level of logging capability:
 - **EL2:** Enhanced logging for better data collection and analysis  
 - **EL3:** Advanced logging supporting effective threat detection and mitigation
 
-### 🗂️ Direct Mappings and Event Artifacts
-The project includes **direct mappings aligned with M-21-31** requirements. These mappings generate **event artifacts** that are critical for:
+### 🗂️ Direct Mappings and Event Artifacts  
+The project begins by identifying the **required data specified in the M-21-31 Executive Order**. From there, it creates structured mappings that align each requirement with specific workloads, tables, and schemas. These mappings then generate **event artifacts** that serve as the foundation for:
 
-- Day-to-day operations  
-- Audit readiness  
-- Compliance validation
+- Day-to-day security operations  
+- Audit readiness and evidence collection  
+- Ongoing compliance validation
 
-This simplifies reporting and offers clear traceability for auditors.
+This approach streamlines reporting processes and provides clear, traceable evidence for auditors, making it easier for agencies to demonstrate alignment with federal cybersecurity mandates.
 
 ### 🛡️ Comprehensive GRC and DFIR Tooling
 The offering created through M2131 is designed to become a full-featured:
@@ -79,4 +79,4 @@ By leveraging cutting-edge technology and deep domain expertise, **U.S. Federal 
 
 ---
 
-Please contact us at **m2131collective@microsoft.com** for any feedback and/or assistance.
+Please contact us at **m2131collective@microsoft.com** for any feedback and/or assistance
