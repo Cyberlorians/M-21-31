@@ -63,6 +63,4 @@ By leveraging cutting-edge technology and deep domain expertise, **U.S. Federal 
 
 ---
 
-Let me know if you'd like this converted to a PDF, added to a GitHub README, or tailored for Confluence or another platform.
-
 Please contact us at m2131collective@microsoft.com for any feedback and/or assistance.
