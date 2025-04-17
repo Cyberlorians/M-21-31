@@ -2,17 +2,17 @@
 
 # M2131 Project Overview
 
-The **M2131 Project** is a comprehensive initiative aimed at significantly enhancing the cybersecurity capabilities of U.S. Federal agencies. Aligned with **Executive Order 14028**, the project addresses the urgent need for improved cybersecurity practices and compliance across the federal landscape.
+The **M-21-31 Project** is a comprehensive initiative aimed at significantly enhancing the cybersecurity capabilities of U.S. Federal agencies. Aligned with **Executive Order 14028**, the project addresses the urgent need for improved cybersecurity practices and compliance across the federal landscape.
 
 ---
 
 ## Core Objectives
 
-### 🔍 Enhancing Visibility
+### 🔍 Improving Visibility
 The project focuses on improving visibility **before, during, and after a cybersecurity incident** by establishing centralized access for each agency’s Security Operations Center (SOC). This enables more responsive, coordinated, and effective incident response.
 
 ### 📊 Event Logging Maturity Model
-To drive consistent progress, M2131 defines a structured maturity model for event logging. The model aligns with the timelines outlined in OMB M-21-31:
+To drive consistent progress, M-21-31 defines a structured maturity model for event logging. The model aligns with the timelines outlined in OMB M-21-31:
 
 #### Key Timelines:
 
@@ -44,7 +44,7 @@ The project begins by identifying the **required data specified in the M-21-31 E
 This approach streamlines reporting processes and provides clear, traceable evidence for auditors, making it easier for agencies to demonstrate alignment with federal cybersecurity mandates.
 
 ### 🛡️ Comprehensive GRC and DFIR Tooling
-The offering created through M2131 is designed to become a full-featured:
+The offering created through M-21-31 is designed to become a full-featured:
 
 - **Governance, Risk, and Compliance (GRC)** tool  
 - **Digital Forensics and Incident Response (DFIR)** platform
@@ -56,7 +56,7 @@ This toolset supports **CIOs, CISOs, SOC analysts, and auditors**, providing the
 ## Guiding Principles
 
 ### 🔄 Continuous Improvement
-M2131 tools and services are **regularly updated** to reflect the latest developments in:
+M-21-31 tools and services are **regularly updated** to reflect the latest developments in:
 
 - Cybersecurity best practices  
 - Logging technologies  
@@ -65,7 +65,7 @@ M2131 tools and services are **regularly updated** to reflect the latest develop
 Developed by dedicated employees on their own time, the project reflects a deep commitment to national security.
 
 ### 🤝 Collaboration and Support
-M2131 promotes a collaborative approach, working directly with agencies to meet their specific needs. **Ongoing support** ensures smooth implementation of M-21-31 requirements.
+M-21-31 promotes a collaborative approach, working directly with agencies to meet their specific needs. **Ongoing support** ensures smooth implementation of M-21-31 requirements.
 
 ---
 
@@ -79,4 +79,4 @@ By leveraging cutting-edge technology and deep domain expertise, **U.S. Federal 
 
 ---
 
-Please contact us at **m2131collective@microsoft.com** for any feedback and/or assistance
+Please contact us at **m2131collective@microsoft.com** for any feedback and/or assistance.
