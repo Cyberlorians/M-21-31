@@ -1,10 +1,8 @@
-my numbers arent justified all the way to the left
-
 <details><summary>Event Logging Overview</summary>
 <p>
 
 
-**Overview**
+1 - **Overview**
 
 | Field             | Description                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------|
