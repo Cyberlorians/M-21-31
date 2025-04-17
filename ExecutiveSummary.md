@@ -38,7 +38,7 @@ While primarily designed for **Microsoft** products, the **M-21-31 Maturity Mode
 ### 🛡️ Comprehensive GRC and DFIR Tooling  
 The **M-21-31 Maturity Model Management App** is designed to be a full-featured **Governance, Risk, and Compliance (GRC)** tool as well as a **Digital Forensics and Incident Response (DFIR)** platform. This new app supports **CIOs, CISOs, SOC analysts, and auditors**, helping them manage compliance, investigate incidents, and strengthen cybersecurity frameworks in line with **M-21-31** requirements.
 
-Additionally, the **Microsoft Sentinel Event Verification Workbook** is integrated into the app to help agencies **prove event logging**. This workbook provides an interactive solution to verify that events have been properly logged and are accessible for auditing, further supporting compliance with **M-21-31** guidelines.
+Additionally, the **Microsoft Sentinel Event Verification Workbook** can be leveraged with Microsoft Sentinel to **prove event logging**. This workbook provides an interactive solution to verify that events have been properly logged and are accessible for auditing, further supporting compliance with **M-21-31** guidelines.
 
 ---
 
