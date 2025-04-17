@@ -2,7 +2,7 @@
 <summary>Event Logging Overview</summary>
 <div>
 
-1. Overview.
+Overview.
 
 | Field             | Description                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------|
