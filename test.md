@@ -51,7 +51,7 @@ The **Table Implementation Status** provides real-time updates on whether event 
 | **12 Month Retention**   | Optionally mark if logs should be retained for a 12-month period.                                  |
 | **18 Month Retention**   | Optionally mark if logs should be retained for an 18-month period.                                 |
 
-![Table Implementation Status](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp3.png)
+![Table Implementation Status]()
 
 ---
 
