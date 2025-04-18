@@ -61,7 +61,7 @@ To manage **storage locations**, simply click on **"+New Storage Location"**. He
 
 ![Add Storage Location](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp4.png)
 
-Once added, both **hot** and **cold** storage locations will be visible in the interface. **Note:** Manual updates are required to reflect your current compliance status.
+Once added, both **hot** and **cold** storage locations will be visible in the interface. **Note:** There is a 12-hour update cycle that will automatically refresh if the organization meets either the hot or cold compliance criteria, or if manual updates are permitted to reflect your current compliance status.
 
 ![Storage Location View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp7.png)
 
