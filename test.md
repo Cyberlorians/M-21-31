@@ -63,7 +63,7 @@ To manage **storage locations**, simply click on **"+New Storage Location"**. He
 
 Once added, both **hot** and **cold** storage locations will be visible in the interface. **Note:** Manual updates are required to reflect your current compliance status.
 
-![Storage Location View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp5.png)
+![Storage Location View](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131powerapp7.png)
 
 ---
 
