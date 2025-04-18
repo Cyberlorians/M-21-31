@@ -152,6 +152,15 @@ Choose a maturity level to see the specific logging data, event artifacts, and c
 
 ![Select EL Dashboard](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131db2.png)
 
+### ✅ Validation Review Dashboard
+
+Track which events have been validated by your organization. This dashboard displays the validation status of logging events as confirmed within the app.
+
+> **Note:** Events appear here once they have been **validated** in the app by your organization. This ensures your compliance status reflects only confirmed and accurate data.
+
+![Validated Review](https://github.com/Cyberlorians/M-21-31/blob/main/Images/m2131db3.png)
+
+
 </p>
 </details>
 
