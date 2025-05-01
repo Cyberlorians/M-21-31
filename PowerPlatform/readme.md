@@ -1,7 +1,7 @@
 # Required Items:
-- PowerBI Template File ![](https://github.com/Cyberlorians/M-21-31/blob/main/PowerPlatform/PowerBI/M21-31-Dashboard.pbit)
-- Excel Data File
-- Power App Solution File
+- [PowerBI Template File](PowerBI/M21-31-Dashboard.pbit)
+- [Excel Data File]
+- [Power App Solution File](PowerApps/M2131DEMOAPP_1_0_0_26.Zip)
 ## Pre-Reqs:
 1. Ensure that the Dataverse environment is correctly set up and accessible.
 2. Verify the security roles to ensure appropriate permissions for importing the solution.
