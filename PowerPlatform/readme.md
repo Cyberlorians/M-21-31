@@ -33,7 +33,7 @@
 1. Navigate to the Solution.
 2. Click on Flows.
 3. Run both flows once.
-- ![Image of Cloud Flow Names](../Images/PowerAppCloudFlows.png)
+- ![Image of Cloud Flow Names](../Images/PowerAppCloudFLows.png)
 ---
 ### Get AppID / ORG URL and Test the App
 1. Navigate to the Solution.
