@@ -1,4 +1,4 @@
-# 📘 M-21-31 Implementation Guide
+# 📘 M-21-31 PowerApp Install Guide
 
 ---
 
