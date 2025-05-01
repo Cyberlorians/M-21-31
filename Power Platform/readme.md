@@ -1,5 +1,5 @@
 # Required Items:
-- PowerBI Template File
+- PowerBI Template File ![](https://github.com/Cyberlorians/M-21-31/blob/main/PowerPlatform/PowerBI/M21-31-Dashboard.pbit)
 - Excel Data File
 - Power App Solution File
 ## Pre-Reqs:
