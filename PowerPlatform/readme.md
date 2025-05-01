@@ -18,7 +18,7 @@
 2. Edit the “” Dataflow:
 - Click on the EL0 Table.
 - Click on the Gear next to the Source Step.
-- Upload or browse to the location of the `xxxxxx.xlxs` file.
+- Upload or browse to the location of the `xxxxxx.xlxs`  file.
 - Configure connection to file.
 - Click **Next**.
 - Click **Publish**.
