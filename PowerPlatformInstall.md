@@ -4,7 +4,7 @@
 # Required Items:
 - [PowerBI Template File](PowerPlatform/PowerBI/M21-31-Dashboard.pbit)
 - [Ingest File](PowerPlatform/Data/M2131v0.1.0-BETA.xlsx)
-- [Power App Solution File](PowerPlatfrom/PowerApps/M2131DEMOAPP_1_0_0_26.zip)
+- [Power App Solution File](PowerPlatform/PowerApps/M2131DEMOAPP_1_0_0_26.zip)
 ---
 ## Pre-Reqs:
 1. Ensure that the Dataverse environment is correctly set up and accessible.
