@@ -41,7 +41,7 @@ Below is a breakdown of each Event ID’s GPO path, organized by where the audit
 
 ## Domain-Controller GPO Paths
 
-| Event ID(s)               | GPO Path                                                                                                                                                                                                     |
+| Event ID(s)               | GPO Path                                                                                                                                                                                                            |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **4726**                  | Computer Configuration → Policies → Windows Settings → Security Settings → **Advanced Audit Policy Configuration** → **DS Access** → Audit Directory Service Changes (Success, Failure)                       |
 | **5136, 5137**            | … → **DS Access** → Audit Directory Service Changes (Success)                                                                                                                                                |
