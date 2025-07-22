@@ -1,36 +1,40 @@
 ## 🚀 Why The PowerApp & Workbook Changes the Game
 
-Most agencies have logs. But most agencies **don't know if the right events are being collected, parsed, and usable** for detection, response, or compliance.
+Every agency has logs.  
+The question most agencies cannot answer, however, is: **within those logs, are the right events being collected, parsed, and usable for detection, response, or compliance?**
 
 This workbook is built to operationalize the M-21-31 event logging maturity model — transforming vague guidance into concrete, query-driven validation of telemetry coverage. It enables security teams, auditors, and engineers to prove what’s really being logged, where it’s flowing, and whether it can be used for detection, response, and compliance.
 
 This workbook solves that problem:
 
 - 🔎 **Proof, not assumptions**: You’re not hoping logs are there — you’re validating it with live queries.  
-- 🛠️ **Defender + Entra + Windows** all in one place — mapped to real M-21-31 categories.  
+- 🛠️ **Defender + Entra + Windows** all in one place — mapped directly to real M-21-31 categories.  
 - 🤝 **Bridges security and compliance**: SOC analysts and auditors can align on evidence-backed coverage, not just policy intent.  
 - 🎯 **Threat hunting ready**: The queries aren’t just for audits — they can detect, investigate, and enrich real-world attacks.
+
+Whether you're in the SOC, compliance, or infrastructure teams, this workbook gives you a shared, single lens to evaluate logging posture in a Zero Trust world — ensuring everyone is on the same page.
 
 ---
 
 ## 📌 Core Benefits
 
 ### ✅ Direct Mapping to M-21-31 Logging Categories
-Each workbook section maps to a specific logging requirement from the M-21-31 memorandum. You’re not guessing — you’re validating what exists and pinpointing gaps.
+Each workbook section aligns to a specific logging requirement from the M-21-31 memorandum. You’re not guessing — you’re validating exactly what exists and where gaps remain.
 
 ### ✅ Real-Time Telemetry Validation
-Rather than checklists or theoretical recommendations, this workbook uses live KQL queries against your Microsoft Defender and Sentinel data to confirm whether essential log types are being collected.
+Rather than relying on checklists or assumed configurations, this workbook uses live KQL queries against your Microsoft Defender and Sentinel data to prove whether essential log types are collected and queryable.
 
 ### ✅ Broad Workload Coverage
 Supports validation across:
-- Microsoft Defender for Endpoint (MDE) - Mapped with Entra. OS Events to be released.
-- Entra ID (Azure AD) - Mapped.  
-- Windows Security Events - Phase 1 released.  
-- Linux Syslog (auditd/local3) - To Be Released.  
-- Third-party SaaS (via Sentinel connectors) - On Roadmap.  
+
+- Microsoft Defender for Endpoint (MDE) – Requirements mapped using Entra telemetry. OS-specific audit events to follow.  
+- Entra ID (Azure AD) – Fully mapped.  
+- Windows Security Events – Phase 1 released.  
+- Linux Syslog (auditd/local3) – Coming soon.  
+- Third-party SaaS via Sentinel connectors – On the roadmap.
 
 ### ✅ Designed for Collaboration
-Whether you're in the SOC, compliance, or infrastructure teams, this workbook gives you a shared, structured lens to evaluate logging posture in a Zero Trust world.
+Built for joint consumption across SOC teams, compliance officers, auditors, and infrastructure engineers — this tool delivers a unified, defensible view of logging posture in a Zero Trust architecture.
 
 ---
 
@@ -52,21 +56,21 @@ This example tracks account creation activity in Entra ID (`Add user` operations
 
 ### 🔐 Why This Is Critical
 
-#### 🛡 Identity Visibility
-- Confirms whether Entra is emitting logs for user creation — a must-have for both Zero Trust and insider threat mitigation.  
-- Reveals which admin or app created the account and whether it succeeded or failed.
-
-#### 🔎 Threat Hunting
-- Enables rapid pivoting by IP, actor, or target account.  
-- Can be chained with role assignments or sign-ins to investigate suspicious user lifecycles.
-
-#### 🔥 DFIR Readiness
-- During an incident, quickly determine if shadow accounts were created.  
-- Establish intent and actor type (sync process vs. interactive user vs. app).
-
 #### 📋 M-21-31 Compliance
 - Satisfies event logging requirements around account provisioning.  
-- Validates not just that logs exist — but that they are parsed and queryable.
+- Validates not just that logs exist — but that they are parsed, structured, and queryable.
+
+#### 🛡 Identity Visibility
+- Proves whether Entra is emitting logs for user creation — essential for Zero Trust and insider threat mitigation.  
+- Identifies the actor (admin, app, sync process) behind account creation — with full attribution and status.
+
+#### 🔎 Threat Hunting
+- Enables analysts to pivot quickly on IPs, users, roles, or apps involved in account lifecycle events.  
+- Supports chaining with role assignment and sign-in activity for threat investigation.
+
+#### 🔥 DFIR Readiness
+- In the event of a breach, provides rapid insight into shadow account creation activity.  
+- Helps establish the intent and origin of the actor behind unauthorized provisioning.
 
 ---
 
@@ -142,21 +146,20 @@ AuditLogs
 | sort by TimeGenerated desc
 | take 50
 ```
----
 
+---
 🧠 Bottom Line
 This isn’t just a compliance workbook.
 
 It’s a defender-focused, auditor-ready, zero trust-aligned operational tool that proves your logs are real, structured, and useful — not just "enabled."
 
-Use this [workbook](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Validation.json) to:
+Use this workbook to:
 
 ✅ Validate your M-21-31 logging maturity
-
 🚫 Detect gaps before auditors or attackers do
-
 🤝 Bring together technical teams and policy owners
 
-If you have Entra, Windows, Defender, etc. — this workbook is your new control panel. Head over to the [HowToUse](https://github.com/Cyberlorians/M-21-31/blob/main/HowToUse.md) & "Event Validation Workbook" section to get started.
+If you have Entra, Windows, Defender, etc. — this workbook is your new control panel.
+Head over to the HowToUse & "Event Validation Workbook" section to get started.
 
 ---
