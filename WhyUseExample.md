@@ -76,9 +76,9 @@ This example tracks account creation activity in Entra ID (`Add user` operations
 
 ## 🔍 Example Insight – Who Created What (and From Where)
 
-In the example below, we see both **user-based** and **application-based** account creation and access activity across different Entra ID tenants and service principals:
+In the example below, we see both **user-based** and **application-based** application creation and access activity across different Entra ID tenants and service principals:
 
-> ![Identity Initiator Activity](link-to-image.png)
+> ![Identity Initiator Activity](https://github.com/Cyberlorians/uploadedimages/blob/main/linkedinpost.png)
 
 ### Why This Matters
 
