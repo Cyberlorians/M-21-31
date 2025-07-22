@@ -118,4 +118,6 @@ Use this workbook to:
 - Detect gaps before auditors or attackers do
 - Bring together technical teams and policy owners
 
-If you have Entra, Windows, Defender, or Linux logs — this workbook is your new control panel.
+If you have Entra, Windows, Defender, etc. — this workbook is your new control panel.
+
+Head back to the ![HowToUse](https://github.com/Cyberlorians/M-21-31/blob/main/HowToUse.md) section and select Workbook section deploy the workbook and how to leverage.
