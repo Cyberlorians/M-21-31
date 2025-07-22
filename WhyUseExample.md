@@ -10,10 +10,8 @@ This workbook solves that problem:
 
 - 🔎 **Proof, not assumptions**: You’re not hoping logs are there — you’re validating it with live queries.
 - 🛠️ **Defender + Entra + Windows** all in one place — mapped to real M-21-31 categories.
-- 📊 **Instant insight**: Red, yellow, green status per event lets you instantly see maturity and readiness.
 - 🤝 **Bridges security and compliance**: SOC analysts and auditors can align on evidence-backed coverage, not just policy intent.
 - 🎯 **Threat hunting ready**: The queries aren’t just for audits — they can detect, investigate, and enrich real-world attacks.
-
 
 ---
 
