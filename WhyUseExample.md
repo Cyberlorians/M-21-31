@@ -3,7 +3,6 @@
 ## 🚀 Why This Workbook Changes the Game
 
 Most agencies have logs. But most agencies **don't know if the right events are being collected, parsed, and usable** for detection, response, or compliance.
-This workbook is built to operationalize the M-21-31 event logging maturity model — transforming vague guidance into concrete, query-driven validation of telemetry coverage. It enables security teams, auditors, and engineers to prove what’s really being logged, where it’s flowing, and whether it can be used for detection, response, and compliance.
 
 This workbook solves that problem:
 
