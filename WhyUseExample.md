@@ -149,7 +149,7 @@ This isn’t just a compliance workbook.
 
 It’s a defender-focused, auditor-ready, zero trust-aligned operational tool that proves your logs are real, structured, and useful — not just "enabled."
 
-Use this workbook to:
+Use this [workbook](https://github.com/Cyberlorians/Workbooks/blob/main/M2131-EL-Validation.json) to:
 
 ✅ Validate your M-21-31 logging maturity
 
@@ -157,6 +157,6 @@ Use this workbook to:
 
 🤝 Bring together technical teams and policy owners
 
-If you have Entra, Windows, Defender, etc. — this workbook is your new control panel.
+If you have Entra, Windows, Defender, etc. — this workbook is your new control panel. Head over to the [HowToUse](https://github.com/Cyberlorians/M-21-31/blob/main/HowToUse.md) & "Event Validation Workbook" section to get started.
 
 ---
