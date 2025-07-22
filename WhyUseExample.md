@@ -78,10 +78,8 @@ This example tracks account creation activity in Entra ID (`Add user` operations
 
 ```kql
 // Objective: Detects new user creation events in Entra ID and allows for targeted filtering by initiator or target UPN.
-
 let TargetedUserUPNs = dynamic([]); // Example: ["user1@domain.com"]
 let InitiatorUPNs = dynamic([]);    // Example: ["admin@domain.com"]
-
 AuditLogs
 | where TimeGenerated > ago(30d)
 | where OperationName == "Add user"
