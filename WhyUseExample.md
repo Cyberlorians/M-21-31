@@ -146,6 +146,7 @@ AuditLogs
 | sort by TimeGenerated desc
 | take 50
 ```
+---
 
 🧠 Bottom Line
 This isn’t just a compliance workbook.
@@ -161,3 +162,5 @@ Use this workbook to:
 🤝 Bring together technical teams and policy owners
 
 If you have Entra, Windows, Defender, etc. — this workbook is your new control panel.
+
+---
