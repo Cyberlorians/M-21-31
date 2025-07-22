@@ -1,4 +1,4 @@
-## 🚀 Why This Workbook Changes the Game
+## 🚀 Why The PowerApp & Workbook Changes the Game
 
 Most agencies have logs. But most agencies **don't know if the right events are being collected, parsed, and usable** for detection, response, or compliance.
 
