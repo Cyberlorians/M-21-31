@@ -14,12 +14,11 @@ Rather than checklists or theoretical recommendations, this workbook uses live K
 
 ### ✅ Broad Workload Coverage
 Supports validation across:
-- Microsoft Defender for Endpoint (MDE)
-- Microsoft Defender for Office (MDO)
-- Entra ID (Azure AD)
-- Windows Security Events
-- Linux Syslog (auditd/local3)
-- Third-party SaaS (via Sentinel connectors)
+- Microsoft Defender for Endpoint (MDE) - Mapped with Entra. OS Events to be released.
+- Entra ID (Azure AD) - Mapped. 
+- Windows Security Events - Phase 1 released. 
+- Linux Syslog (auditd/local3) - To Be Released.
+- Third-party SaaS (via Sentinel connectors) - On Roadmap. 
 
 ### ✅ Designed for Collaboration
 Whether you're in the SOC, compliance, or infrastructure teams, this workbook gives you a shared, structured lens to evaluate logging posture in a Zero Trust world.
