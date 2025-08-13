@@ -1,3 +1,4 @@
+```
 # ======= EDIT THESE =======
 $TenantID       = "231fba77-bebd-4bd8-ba2e-e01c6f72c37d"
 $SubscriptionID = "4260a1bd-84f2-4114-8197-2bbf9a9350a1"
@@ -108,3 +109,4 @@ $Body = @{
 
 Invoke-AzRestMethod -Method PUT -Uri $Uri -Payload $Body | Out-Null
 Write-Host "✅ DCR '$DcrName' created/updated (no associations)." -ForegroundColor Green
+```
