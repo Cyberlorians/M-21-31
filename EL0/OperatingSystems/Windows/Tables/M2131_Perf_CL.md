@@ -1,3 +1,4 @@
+```
 # ==== YOUR VALUES ====
 $TenantID       = ""
 $SubscriptionID = ""
@@ -50,3 +51,4 @@ Write-Host "Created/ensured Auxiliary table $TableName" -ForegroundColor Green
 # Verify
 $tables = Invoke-AzRestMethod -Method GET -Uri "$MgmtBase$($WsId)/tables?api-version=$ApiVersion"
 ($tables.Content | ConvertFrom-Json).value | Select-Object -ExpandProperty name | Sort-Object | Out-Host
+```
