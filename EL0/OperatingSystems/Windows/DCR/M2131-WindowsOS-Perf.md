@@ -1,3 +1,4 @@
+```
 $TenantID       = ""
 $SubscriptionID = ""
 $ResourceGroup  = "sentinel"
@@ -54,3 +55,4 @@ $Body = @{
 
 Invoke-AzRestMethod -Method PUT -Uri $Uri -Payload $Body | Out-Null
 Write-Host "DCR $DcrName created/updated (no associations)." -ForegroundColor Green
+```
