@@ -48,3 +48,9 @@ source
 
 ## If You Need the Raw Data
 Send unfiltered logs to a **Basic tier table** or **Storage Account** for compliance at a fraction of the cost.
+
+// Before CAP removed
+AADNonInteractiveUserSignInLogs | summarize MessageCount = count(), DataIngestedGB = sum(_BilledSize) / 1024 / 1024 / 1024
+ 
+// CAP filtered out to only allow success
+AADNonInteractiveUserSignInLogs | extend ConditionalAccessPolicies_CF = extract_all(@"(\{[^{}]*""result"":""success""[^{}]*\})",ConditionalAccessPolicies) | project-away ConditionalAccessPolicies | where not(isempty(ConditionalAccessPolicies_CF)) | summarize MessageCount = count(), DataIngestedGB = sum(_BilledSize) / 1024 / 1024 / 1024
